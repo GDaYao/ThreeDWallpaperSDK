@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ThreeDWallpaperSDK/Classes/**/*'
+  #s.source_files = 'ThreeDWallpaperSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ThreeDWallpaperSDK' => ['ThreeDWallpaperSDK/Assets/*.png']
@@ -39,4 +39,17 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'ThreeDWallpaperSDK' do |threedwallpapersdk|
+    
+#    threedwallpapersdk.libraries = 'GLKit.framework'
+    threedwallpapersdk.frameworks = 'GLKit','UIKit'
+    threedwallpapersdk.source_files = 'ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/**/*'
+    threedwallpapersdk.public_header_files = 'ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/**/*.h'
+    
+    
+    end
+  
+  
+  
 end

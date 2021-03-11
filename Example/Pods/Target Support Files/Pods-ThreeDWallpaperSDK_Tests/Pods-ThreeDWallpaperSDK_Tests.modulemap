@@ -1,0 +1,6 @@
+framework module Pods_ThreeDWallpaperSDK_Tests {
+  umbrella header "Pods-ThreeDWallpaperSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

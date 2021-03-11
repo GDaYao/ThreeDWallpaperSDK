@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DB0FA06BAD1A435C751420BF3EA370 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A3718254CB88889E5E3ED0CA3BDE506B /* README.md */; };
+		20BAB7F9F7B5DBA27F7C459CF48719F2 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A600F56C99A7918230AFBB54538C529 /* GLKit.framework */; };
+		22355C89BB26E6F25814F86BCA130CE4 /* GLESViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2D14F26A39969C6DC53FBCBE91EC39 /* GLESViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23E61B2AC64A6D4E371B0B6B40167A24 /* ThreeDWallpaperSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3385D70D9491DC13D0ACA545AEB397 /* ThreeDWallpaperSDK-dummy.m */; };
+		273DBD26AFAA4AF56597924305594C8F /* Renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA43C15F3DD987A8AB167BC7051551D2 /* Renderer.cpp */; };
+		2C6AEC3F8F0AA36E5806D597B80673FE /* GLESViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 241451211D462635885232D325D40C4F /* GLESViewController.mm */; };
+		3912DBC9BD089ABBFFF0DEF1E8FBCCF7 /* Pods-ThreeDWallpaperSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC053E8E277EB25F5CBDFEFC9E6EF3D8 /* Pods-ThreeDWallpaperSDK_Example-dummy.m */; };
+		42EE50F3433B9F91354BB0199CC2BFD7 /* ThreeDWallpaperSDKPublic.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CF10471AA990C97DDD3DCA056E547AA /* ThreeDWallpaperSDKPublic.c */; };
+		4A1C0C94E42D04BEFE56D0BEB92C4109 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACDD5E72B974FE5EE9823D4B154DE1B /* UIKit.framework */; };
+		59C9B0E1B2921A688A55BD55F2319165 /* Pods-ThreeDWallpaperSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C598643E4DBA3DA3A80530DE896D0C83 /* Pods-ThreeDWallpaperSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		647A9E1F162AD483899DD1E0B94D09F8 /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0C61DFB623250BA3AC884753064D2D /* Platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752E56B164F85745D1B993334C66BC47 /* Pods-ThreeDWallpaperSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE877F04ACB34FD6FEEFEACDDC251522 /* Pods-ThreeDWallpaperSDK_Tests-dummy.m */; };
+		806F5417228D732282D8D4350AB19C67 /* Pods-ThreeDWallpaperSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A82305877ED548C32CB93534AC01E38 /* Pods-ThreeDWallpaperSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814F0C51486AA6612AD691DC74DFD6DD /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 563716162C377E73C57CCFEA658C893E /* CMakeLists.txt */; };
+		9C6169E8BD2F49D85A3F6602CE99B396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1297A9F0133E6D76D9968775CC3F14 /* Foundation.framework */; };
+		A94AC0A5BF046A2D6EFCEA0373140056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1297A9F0133E6D76D9968775CC3F14 /* Foundation.framework */; };
+		B0E42FCEAB4BFC311839393D3EA90BC4 /* ThreeDWallpaperSDKPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = C5889C17734633EC7B9A49C035ABDCC3 /* ThreeDWallpaperSDKPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B982F272FEBA00DB461EDDE067110232 /* JniWarpper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791E4C778729781BAB1F16ED2365792F /* JniWarpper.cpp */; };
+		CB937E5661071699C21C2D0841BA49FE /* ThreeDWallpaperSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F75EC7053D8CE7BBA1E721BC333A20 /* ThreeDWallpaperSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC1511ED75EFA0A56C98BEB76EB39236 /* Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF493F20D72B8E66F6A695FD99FE562 /* Renderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BF777F21968B87CC0AC9E216506CA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1297A9F0133E6D76D9968775CC3F14 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E11D0E72AF035D2B4CEA38FCAAB9A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8EB25BEA3125368ACC3372717421E02;
+			remoteInfo = "Pods-ThreeDWallpaperSDK_Example";
+		};
+		FF4F2D225320969A93939C91446D618D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36A825E942DC452C3D2CCFC61A293C5F;
+			remoteInfo = ThreeDWallpaperSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B04DD2096030F95A723B145146FE4F /* ThreeDWallpaperSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThreeDWallpaperSDK.debug.xcconfig; sourceTree = "<group>"; };
+		1AB0CA1419FB23107C775E64CFDA2376 /* ThreeDWallpaperSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThreeDWallpaperSDK-prefix.pch"; sourceTree = "<group>"; };
+		1B0C61DFB623250BA3AC884753064D2D /* Platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		241451211D462635885232D325D40C4F /* GLESViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = GLESViewController.mm; sourceTree = "<group>"; };
+		27BEA7510245173E78E1B7413E4FDA14 /* Pods-ThreeDWallpaperSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeDWallpaperSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		31F75EC7053D8CE7BBA1E721BC333A20 /* ThreeDWallpaperSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThreeDWallpaperSDK-umbrella.h"; sourceTree = "<group>"; };
+		3BA0E0C74083F2910B1BB8D798D50863 /* ThreeDWallpaperSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThreeDWallpaperSDK.framework; path = ThreeDWallpaperSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C60C8B1C71C419108A9FF8CD7F4E06F /* ThreeDWallpaperSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThreeDWallpaperSDK.modulemap; sourceTree = "<group>"; };
+		3EB43C711B05C86058A80B18813B3A43 /* Pods_ThreeDWallpaperSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThreeDWallpaperSDK_Example.framework; path = "Pods-ThreeDWallpaperSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3385D70D9491DC13D0ACA545AEB397 /* ThreeDWallpaperSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThreeDWallpaperSDK-dummy.m"; sourceTree = "<group>"; };
+		4D1297A9F0133E6D76D9968775CC3F14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		563716162C377E73C57CCFEA658C893E /* CMakeLists.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = CMakeLists.txt; sourceTree = "<group>"; };
+		584538C7598B46336992652229251A24 /* Pods-ThreeDWallpaperSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeDWallpaperSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5CF10471AA990C97DDD3DCA056E547AA /* ThreeDWallpaperSDKPublic.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ThreeDWallpaperSDKPublic.c; path = ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/ThreeDWallpaperSDKPublic.c; sourceTree = "<group>"; };
+		60E2EBF24B23DFB577F419B28875CA1B /* Pods-ThreeDWallpaperSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeDWallpaperSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6613B1E0E9C37A1C1F8EB89559991D53 /* ThreeDWallpaperSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThreeDWallpaperSDK-Info.plist"; sourceTree = "<group>"; };
+		6BE3EDB3E5BEE3D83F654AB83302A9BB /* Pods-ThreeDWallpaperSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeDWallpaperSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEFC46F836A980B37977EF557F6BAAC /* Pods-ThreeDWallpaperSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThreeDWallpaperSDK_Example.modulemap"; sourceTree = "<group>"; };
+		706367EBAB15F89F35FD15C0E2C39834 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		791E4C778729781BAB1F16ED2365792F /* JniWarpper.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = JniWarpper.cpp; sourceTree = "<group>"; };
+		79823191C5CBE669A63FE68E95BC6DC9 /* Pods-ThreeDWallpaperSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThreeDWallpaperSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7A600F56C99A7918230AFBB54538C529 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A82305877ED548C32CB93534AC01E38 /* Pods-ThreeDWallpaperSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThreeDWallpaperSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		903124DE9D2F0CE1687E56B70995A8FF /* ThreeDWallpaperSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThreeDWallpaperSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F4893802E991189829C7964414D36E /* Pods-ThreeDWallpaperSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeDWallpaperSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		9B00735295B3872C3FA96A81B577B391 /* Pods-ThreeDWallpaperSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThreeDWallpaperSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3718254CB88889E5E3ED0CA3BDE506B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AEF0858272D5656B6094AFB99C2051B9 /* Pods-ThreeDWallpaperSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThreeDWallpaperSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		B500CD44E21B2CD87D667144B1903746 /* Pods-ThreeDWallpaperSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeDWallpaperSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		B52AAB857B82806ACA7B693C5CA74A9C /* Pods-ThreeDWallpaperSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThreeDWallpaperSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE877F04ACB34FD6FEEFEACDDC251522 /* Pods-ThreeDWallpaperSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThreeDWallpaperSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C28D994C8AFA11E3A579B4D2D6C212C6 /* ThreeDWallpaperSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThreeDWallpaperSDK.release.xcconfig; sourceTree = "<group>"; };
+		C5889C17734633EC7B9A49C035ABDCC3 /* ThreeDWallpaperSDKPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreeDWallpaperSDKPublic.h; path = ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/ThreeDWallpaperSDKPublic.h; sourceTree = "<group>"; };
+		C598643E4DBA3DA3A80530DE896D0C83 /* Pods-ThreeDWallpaperSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThreeDWallpaperSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CA43C15F3DD987A8AB167BC7051551D2 /* Renderer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; path = Renderer.cpp; sourceTree = "<group>"; };
+		CEE2F9C6DB07EF8A852E5303B226E693 /* Pods-ThreeDWallpaperSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeDWallpaperSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DACDD5E72B974FE5EE9823D4B154DE1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD2D14F26A39969C6DC53FBCBE91EC39 /* GLESViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GLESViewController.h; sourceTree = "<group>"; };
+		DE0B64B487D18D403528364CA6AB6B68 /* Pods_ThreeDWallpaperSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThreeDWallpaperSDK_Tests.framework; path = "Pods-ThreeDWallpaperSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8FDA4215955665819E89469FBE0D66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DEF493F20D72B8E66F6A695FD99FE562 /* Renderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		DFC3E6DC500F5068C27E0240E6C7793A /* Pods-ThreeDWallpaperSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeDWallpaperSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC053E8E277EB25F5CBDFEFC9E6EF3D8 /* Pods-ThreeDWallpaperSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThreeDWallpaperSDK_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40910020C01388D728F291C34800EF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF777F21968B87CC0AC9E216506CA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50DCB9120101BDD5E9ED8D79DB08733E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AC0A5BF046A2D6EFCEA0373140056 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8491B7F74BAF130A1ED659B9EC278689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6169E8BD2F49D85A3F6602CE99B396 /* Foundation.framework in Frameworks */,
+				20BAB7F9F7B5DBA27F7C459CF48719F2 /* GLKit.framework in Frameworks */,
+				4A1C0C94E42D04BEFE56D0BEB92C4109 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FAED71782C8A391CBEB2C9D2FB534C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D1297A9F0133E6D76D9968775CC3F14 /* Foundation.framework */,
+				7A600F56C99A7918230AFBB54538C529 /* GLKit.framework */,
+				DACDD5E72B974FE5EE9823D4B154DE1B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01FAED71782C8A391CBEB2C9D2FB534C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0634454546A94B6E8AE789C575083131 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C60C8B1C71C419108A9FF8CD7F4E06F /* ThreeDWallpaperSDK.modulemap */,
+				4B3385D70D9491DC13D0ACA545AEB397 /* ThreeDWallpaperSDK-dummy.m */,
+				6613B1E0E9C37A1C1F8EB89559991D53 /* ThreeDWallpaperSDK-Info.plist */,
+				1AB0CA1419FB23107C775E64CFDA2376 /* ThreeDWallpaperSDK-prefix.pch */,
+				31F75EC7053D8CE7BBA1E721BC333A20 /* ThreeDWallpaperSDK-umbrella.h */,
+				04B04DD2096030F95A723B145146FE4F /* ThreeDWallpaperSDK.debug.xcconfig */,
+				C28D994C8AFA11E3A579B4D2D6C212C6 /* ThreeDWallpaperSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThreeDWallpaperSDK";
+			sourceTree = "<group>";
+		};
+		0C03C5038D655D8889267C08303335C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				340B33BB746FDC14B3B10ADE02AF64D8 /* ThreeDWallpaperSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		340B33BB746FDC14B3B10ADE02AF64D8 /* ThreeDWallpaperSDK */ = {
+			isa = PBXGroup;
+			children = (
+				7289CB3DD807F23BE74A86BFDCF07BDE /* Pod */,
+				0634454546A94B6E8AE789C575083131 /* Support Files */,
+				C4331F0D1675373C87A91572BFD5FB53 /* ThreeDWallpaperSDK */,
+			);
+			name = ThreeDWallpaperSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7289CB3DD807F23BE74A86BFDCF07BDE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FDA4215955665819E89469FBE0D66 /* LICENSE */,
+				706367EBAB15F89F35FD15C0E2C39834 /* README.md */,
+				903124DE9D2F0CE1687E56B70995A8FF /* ThreeDWallpaperSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7ABC33A19E36FF92D0E644E4A88C9BBA /* Pods-ThreeDWallpaperSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF0858272D5656B6094AFB99C2051B9 /* Pods-ThreeDWallpaperSDK_Tests.modulemap */,
+				B52AAB857B82806ACA7B693C5CA74A9C /* Pods-ThreeDWallpaperSDK_Tests-acknowledgements.markdown */,
+				DFC3E6DC500F5068C27E0240E6C7793A /* Pods-ThreeDWallpaperSDK_Tests-acknowledgements.plist */,
+				BE877F04ACB34FD6FEEFEACDDC251522 /* Pods-ThreeDWallpaperSDK_Tests-dummy.m */,
+				98F4893802E991189829C7964414D36E /* Pods-ThreeDWallpaperSDK_Tests-Info.plist */,
+				C598643E4DBA3DA3A80530DE896D0C83 /* Pods-ThreeDWallpaperSDK_Tests-umbrella.h */,
+				27BEA7510245173E78E1B7413E4FDA14 /* Pods-ThreeDWallpaperSDK_Tests.debug.xcconfig */,
+				60E2EBF24B23DFB577F419B28875CA1B /* Pods-ThreeDWallpaperSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-ThreeDWallpaperSDK_Tests";
+			path = "Target Support Files/Pods-ThreeDWallpaperSDK_Tests";
+			sourceTree = "<group>";
+		};
+		7B36FACD9311F718BF4A826226691753 /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				791E4C778729781BAB1F16ED2365792F /* JniWarpper.cpp */,
+			);
+			name = Android;
+			path = ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/Android;
+			sourceTree = "<group>";
+		};
+		9063BE6F4079D6DECC05365E12C93B9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D089FAC7564B9BBBC2922A5DAD822828 /* Pods-ThreeDWallpaperSDK_Example */,
+				7ABC33A19E36FF92D0E644E4A88C9BBA /* Pods-ThreeDWallpaperSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C293E178FEE6E8FB3B425FEE40F58F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB43C711B05C86058A80B18813B3A43 /* Pods_ThreeDWallpaperSDK_Example.framework */,
+				DE0B64B487D18D403528364CA6AB6B68 /* Pods_ThreeDWallpaperSDK_Tests.framework */,
+				3BA0E0C74083F2910B1BB8D798D50863 /* ThreeDWallpaperSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4331F0D1675373C87A91572BFD5FB53 /* ThreeDWallpaperSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5CF10471AA990C97DDD3DCA056E547AA /* ThreeDWallpaperSDKPublic.c */,
+				C5889C17734633EC7B9A49C035ABDCC3 /* ThreeDWallpaperSDKPublic.h */,
+				7B36FACD9311F718BF4A826226691753 /* Android */,
+				E0CE5977C845735218D8A0B506C9CD04 /* Common */,
+				E5D9FAA9F4AC4B62C065E7018F9C91BF /* iOS */,
+			);
+			name = ThreeDWallpaperSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0C03C5038D655D8889267C08303335C2 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				C293E178FEE6E8FB3B425FEE40F58F82 /* Products */,
+				9063BE6F4079D6DECC05365E12C93B9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D089FAC7564B9BBBC2922A5DAD822828 /* Pods-ThreeDWallpaperSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6EEFC46F836A980B37977EF557F6BAAC /* Pods-ThreeDWallpaperSDK_Example.modulemap */,
+				79823191C5CBE669A63FE68E95BC6DC9 /* Pods-ThreeDWallpaperSDK_Example-acknowledgements.markdown */,
+				CEE2F9C6DB07EF8A852E5303B226E693 /* Pods-ThreeDWallpaperSDK_Example-acknowledgements.plist */,
+				EC053E8E277EB25F5CBDFEFC9E6EF3D8 /* Pods-ThreeDWallpaperSDK_Example-dummy.m */,
+				9B00735295B3872C3FA96A81B577B391 /* Pods-ThreeDWallpaperSDK_Example-frameworks.sh */,
+				B500CD44E21B2CD87D667144B1903746 /* Pods-ThreeDWallpaperSDK_Example-Info.plist */,
+				8A82305877ED548C32CB93534AC01E38 /* Pods-ThreeDWallpaperSDK_Example-umbrella.h */,
+				6BE3EDB3E5BEE3D83F654AB83302A9BB /* Pods-ThreeDWallpaperSDK_Example.debug.xcconfig */,
+				584538C7598B46336992652229251A24 /* Pods-ThreeDWallpaperSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-ThreeDWallpaperSDK_Example";
+			path = "Target Support Files/Pods-ThreeDWallpaperSDK_Example";
+			sourceTree = "<group>";
+		};
+		E0CE5977C845735218D8A0B506C9CD04 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				563716162C377E73C57CCFEA658C893E /* CMakeLists.txt */,
+				1B0C61DFB623250BA3AC884753064D2D /* Platform.h */,
+				A3718254CB88889E5E3ED0CA3BDE506B /* README.md */,
+				CA43C15F3DD987A8AB167BC7051551D2 /* Renderer.cpp */,
+				DEF493F20D72B8E66F6A695FD99FE562 /* Renderer.h */,
+			);
+			name = Common;
+			path = ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/Common;
+			sourceTree = "<group>";
+		};
+		E5D9FAA9F4AC4B62C065E7018F9C91BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D14F26A39969C6DC53FBCBE91EC39 /* GLESViewController.h */,
+				241451211D462635885232D325D40C4F /* GLESViewController.mm */,
+			);
+			name = iOS;
+			path = ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85F1B11A1D96DDE782E2B7971FA20FA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C9B0E1B2921A688A55BD55F2319165 /* Pods-ThreeDWallpaperSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2C1BAF064FB619CFF6EAF5D95B4639 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F5417228D732282D8D4350AB19C67 /* Pods-ThreeDWallpaperSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76D208D4018A10E2BAA1171AA3347B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22355C89BB26E6F25814F86BCA130CE4 /* GLESViewController.h in Headers */,
+				647A9E1F162AD483899DD1E0B94D09F8 /* Platform.h in Headers */,
+				CC1511ED75EFA0A56C98BEB76EB39236 /* Renderer.h in Headers */,
+				CB937E5661071699C21C2D0841BA49FE /* ThreeDWallpaperSDK-umbrella.h in Headers */,
+				B0E42FCEAB4BFC311839393D3EA90BC4 /* ThreeDWallpaperSDKPublic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D29ECEA03A51FFB660A05AAE026371B /* Pods-ThreeDWallpaperSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095559D4091C91D49FEB0D785C7B84CB /* Build configuration list for PBXNativeTarget "Pods-ThreeDWallpaperSDK_Tests" */;
+			buildPhases = (
+				85F1B11A1D96DDE782E2B7971FA20FA8 /* Headers */,
+				B51D116540CE1E6DB4F12602DDBC6D94 /* Sources */,
+				50DCB9120101BDD5E9ED8D79DB08733E /* Frameworks */,
+				6D7A4E35FD93B485BB47486600B4E3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFE836D44F26A2CE236B764B0772B186 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThreeDWallpaperSDK_Tests";
+			productName = "Pods-ThreeDWallpaperSDK_Tests";
+			productReference = DE0B64B487D18D403528364CA6AB6B68 /* Pods_ThreeDWallpaperSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36A825E942DC452C3D2CCFC61A293C5F /* ThreeDWallpaperSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CA9151B42179AD8AB02A963CCB06CD /* Build configuration list for PBXNativeTarget "ThreeDWallpaperSDK" */;
+			buildPhases = (
+				DC76D208D4018A10E2BAA1171AA3347B /* Headers */,
+				4837AAA497A3727828F8734E0E0ED0FC /* Sources */,
+				8491B7F74BAF130A1ED659B9EC278689 /* Frameworks */,
+				4A365408A956CAFA447D81CDB893EC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeDWallpaperSDK;
+			productName = ThreeDWallpaperSDK;
+			productReference = 3BA0E0C74083F2910B1BB8D798D50863 /* ThreeDWallpaperSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8EB25BEA3125368ACC3372717421E02 /* Pods-ThreeDWallpaperSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD708B0E7E730C1AD3A21D5A322B5BA /* Build configuration list for PBXNativeTarget "Pods-ThreeDWallpaperSDK_Example" */;
+			buildPhases = (
+				9F2C1BAF064FB619CFF6EAF5D95B4639 /* Headers */,
+				20F12CF011745988071DE14E92FBAE52 /* Sources */,
+				40910020C01388D728F291C34800EF7A /* Frameworks */,
+				6D971023BA8EED111DB14A143351BD96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037FE25D570DC01F4C3A5A8CB8446EE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThreeDWallpaperSDK_Example";
+			productName = "Pods-ThreeDWallpaperSDK_Example";
+			productReference = 3EB43C711B05C86058A80B18813B3A43 /* Pods_ThreeDWallpaperSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C293E178FEE6E8FB3B425FEE40F58F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8EB25BEA3125368ACC3372717421E02 /* Pods-ThreeDWallpaperSDK_Example */,
+				0D29ECEA03A51FFB660A05AAE026371B /* Pods-ThreeDWallpaperSDK_Tests */,
+				36A825E942DC452C3D2CCFC61A293C5F /* ThreeDWallpaperSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A365408A956CAFA447D81CDB893EC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7A4E35FD93B485BB47486600B4E3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D971023BA8EED111DB14A143351BD96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20F12CF011745988071DE14E92FBAE52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3912DBC9BD089ABBFFF0DEF1E8FBCCF7 /* Pods-ThreeDWallpaperSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4837AAA497A3727828F8734E0E0ED0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814F0C51486AA6612AD691DC74DFD6DD /* CMakeLists.txt in Sources */,
+				2C6AEC3F8F0AA36E5806D597B80673FE /* GLESViewController.mm in Sources */,
+				B982F272FEBA00DB461EDDE067110232 /* JniWarpper.cpp in Sources */,
+				09DB0FA06BAD1A435C751420BF3EA370 /* README.md in Sources */,
+				273DBD26AFAA4AF56597924305594C8F /* Renderer.cpp in Sources */,
+				23E61B2AC64A6D4E371B0B6B40167A24 /* ThreeDWallpaperSDK-dummy.m in Sources */,
+				42EE50F3433B9F91354BB0199CC2BFD7 /* ThreeDWallpaperSDKPublic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51D116540CE1E6DB4F12602DDBC6D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752E56B164F85745D1B993334C66BC47 /* Pods-ThreeDWallpaperSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037FE25D570DC01F4C3A5A8CB8446EE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThreeDWallpaperSDK;
+			target = 36A825E942DC452C3D2CCFC61A293C5F /* ThreeDWallpaperSDK */;
+			targetProxy = FF4F2D225320969A93939C91446D618D /* PBXContainerItemProxy */;
+		};
+		DFE836D44F26A2CE236B764B0772B186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ThreeDWallpaperSDK_Example";
+			target = E8EB25BEA3125368ACC3372717421E02 /* Pods-ThreeDWallpaperSDK_Example */;
+			targetProxy = 38E11D0E72AF035D2B4CEA38FCAAB9A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4627BAC7B1D9156C88ADDC79770A72F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584538C7598B46336992652229251A24 /* Pods-ThreeDWallpaperSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Example/Pods-ThreeDWallpaperSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Example/Pods-ThreeDWallpaperSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CE0D36B0E5F6787DC91E397BF1A7A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BEA7510245173E78E1B7413E4FDA14 /* Pods-ThreeDWallpaperSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Tests/Pods-ThreeDWallpaperSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Tests/Pods-ThreeDWallpaperSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5828F82E3C7AF9F0C90F2F56778CE9B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE3EDB3E5BEE3D83F654AB83302A9BB /* Pods-ThreeDWallpaperSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Example/Pods-ThreeDWallpaperSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Example/Pods-ThreeDWallpaperSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B05FC02B6790A68B844FD75175B15F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E2EBF24B23DFB577F419B28875CA1B /* Pods-ThreeDWallpaperSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Tests/Pods-ThreeDWallpaperSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeDWallpaperSDK_Tests/Pods-ThreeDWallpaperSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC322BE61B52EF7D2929F2F227E6D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B04DD2096030F95A723B145146FE4F /* ThreeDWallpaperSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThreeDWallpaperSDK/ThreeDWallpaperSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThreeDWallpaperSDK/ThreeDWallpaperSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThreeDWallpaperSDK/ThreeDWallpaperSDK.modulemap";
+				PRODUCT_MODULE_NAME = ThreeDWallpaperSDK;
+				PRODUCT_NAME = ThreeDWallpaperSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7444998579212B5ABB132CFC0DF199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28D994C8AFA11E3A579B4D2D6C212C6 /* ThreeDWallpaperSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThreeDWallpaperSDK/ThreeDWallpaperSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThreeDWallpaperSDK/ThreeDWallpaperSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThreeDWallpaperSDK/ThreeDWallpaperSDK.modulemap";
+				PRODUCT_MODULE_NAME = ThreeDWallpaperSDK;
+				PRODUCT_NAME = ThreeDWallpaperSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095559D4091C91D49FEB0D785C7B84CB /* Build configuration list for PBXNativeTarget "Pods-ThreeDWallpaperSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE0D36B0E5F6787DC91E397BF1A7A7A /* Debug */,
+				9B05FC02B6790A68B844FD75175B15F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CA9151B42179AD8AB02A963CCB06CD /* Build configuration list for PBXNativeTarget "ThreeDWallpaperSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC322BE61B52EF7D2929F2F227E6D9B9 /* Debug */,
+				F7444998579212B5ABB132CFC0DF199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD708B0E7E730C1AD3A21D5A322B5BA /* Build configuration list for PBXNativeTarget "Pods-ThreeDWallpaperSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5828F82E3C7AF9F0C90F2F56778CE9B6 /* Debug */,
+				4627BAC7B1D9156C88ADDC79770A72F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

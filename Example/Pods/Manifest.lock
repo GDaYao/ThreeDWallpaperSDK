@@ -1,0 +1,18 @@
+PODS:
+  - ThreeDWallpaperSDK (0.1.0):
+    - ThreeDWallpaperSDK/ThreeDWallpaperSDK (= 0.1.0)
+  - ThreeDWallpaperSDK/ThreeDWallpaperSDK (0.1.0)
+
+DEPENDENCIES:
+  - ThreeDWallpaperSDK (from `../`)
+
+EXTERNAL SOURCES:
+  ThreeDWallpaperSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThreeDWallpaperSDK: 38dccc5808640448e6a31d4ba4d6e2b1405f8786
+
+PODFILE CHECKSUM: 50a3ebf7c38170557164c08990885e8a51181d93
+
+COCOAPODS: 1.9.1

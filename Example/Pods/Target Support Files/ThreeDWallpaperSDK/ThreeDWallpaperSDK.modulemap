@@ -1,0 +1,6 @@
+framework module ThreeDWallpaperSDK {
+  umbrella header "ThreeDWallpaperSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ThreeDWallpaperSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ThreeDWallpaperSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1418154979@qq.com/ThreeDWallpaperSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1418154979@qq.com": "1418154979@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1418154979@qq.com/ThreeDWallpaperSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "subspecs": [
+    {
+      "name": "ThreeDWallpaperSDK",
+      "frameworks": [
+        "GLKit",
+        "UIKit"
+      ],
+      "source_files": "ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/**/*",
+      "public_header_files": "ThreeDWallpaperSDK/Classes/ThreeDWallpaperSDK/**/*.h"
+    }
+  ]
+}

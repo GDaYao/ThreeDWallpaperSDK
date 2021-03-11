@@ -8,16 +8,32 @@
 
 #import "THREEDWALLPAPERSDKViewController.h"
 
+
+// test OpenGL ES
+#import <ThreeDWallpaperSDK/GLESViewController.h>
+
+
+
 @interface THREEDWALLPAPERSDKViewController ()
+
+//
+@property (strong, nonatomic) GLESViewController *glesViewController;
+
 
 @end
 
 @implementation THREEDWALLPAPERSDKViewController
 
-- (void)viewDidLoad
-{
+#pragma mark - view life cycle
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // 创建GLES视图并添加
+    self.glesViewController = [[GLESViewController alloc] initWithView:self.view];
+    [self addChildViewController:self.glesViewController];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
